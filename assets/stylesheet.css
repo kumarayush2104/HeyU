@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Root */
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 1rem;
+}
+
+input,
+select {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 25px;
+}
+
+.full-stop {
+    color: #d90647;
+}
+
+/* Root End */
+
+.navbar {
+    background: #d90647;
+    color: white;
+}
+
+.navbar .brand-name {
+    font-weight: 900;
+}
+
+.nav-button {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+/* Home Section Start */
+.home {
+    background-image: url("home/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.home .home-headline {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.home-download-button {
+    background: white;
+    border: none;
+    border-radius: 25px;
+    color: #d90647;
+    filter: drop-shadow(0px 10px 20px rgba(54, 54, 54, 0.15));
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+/* Home Section End */
+
+/* Features Section Start */
+.features {
+    margin: 100px 0 100px 0;
+}
+
+.features-heading {
+    font-size: 3.75rem;
+    font-weight: 900;
+}
+
+.features-content {
+    color: #808080;
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+
+.features-us img {
+    filter: drop-shadow(0px 30px 20px rgba(54, 54, 54, 0.2));
+}
+
+/* Features Section End */
+
+
+/* Testimonial Section Start */
+.testimonial-title {
+    font-size: 3.75rem;
+    font-weight: 900;
+    margin: 100px 0 100px 0;
+}
+
+.testimonial-card-content {
+    border: 1px solid #c5c5c5;
+    position: relative;
+}
+
+.testimonial-card-content::after {
+    background-color: white;
+    border-bottom: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    bottom: -8px;
+    content: "";
+    height: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 15px;
+}
+
+.testimonial-card-content:hover {
+    border: none;
+    box-shadow: 0px 30px 20px rgba(54, 54, 54, 0.2);
+    margin: -50px 0 0 0;
+}
+
+.testimonial-card-content .brand-name {
+    color: #d90647;
+}
+
+.testimonial-card-signature .signature-image {
+    border-radius: 50%;
+}
+
+.testimonial-card-signature .signature-designation {
+    color: #667386;
+}
+
+/* Testimonial Section End */
+
+.services-section {
+    color: white;
+    background: linear-gradient(to bottom right, #d90647, #eb402c);
+    margin: 100px 0 100px 0;
+}
+
+.service-card-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* Newsletter Section Start */
+.newsletter-title {
+    font-size: 3.75rem;
+    font-weight: 900;
+}
+
+.newsletter-content {
+    color: #808080;
+}
+
+.newsletter-email-input {
+    padding: 0.5rem 1rem;
+}
+
+.newsletter-email-submit-button {
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    color: white;
+    background: linear-gradient(to bottom right, #d90647 0%, #eb402c 100%);
+}
+
+/* Newsletter Section End */
+
+/* Downloads Section Start */
+.downloads-section {
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.downloads-title {
+    font-size: 3.75rem;
+    font-weight: 900;
+}
+
+.downloads-content {
+    color: #808080;
+}
+
+/* Downloads Section End */
+
+/* Footer Start */
+.footer-button {
+    text-transform: uppercase;
+}
+
+.footer-button:hover {
+    text-decoration: underline;
+}
+
+.language-switcher {
+    padding: 0.5em 1.2em;
+}
+
+/* Footer End */
